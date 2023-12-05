@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+.heading{
+  /* font-family: 'Cursive Font', cursive; */
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', cursive;
+  font-size: 80px;
+}
+.app-container{
+  margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-image: url('/public/main.jpg');
+    /* filter: blur(2px); */
+    /* Adjust the path based on your file structure */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    text-align: center;
+    font-size:large;
+}
